@@ -1,0 +1,18 @@
+{
+    "name": "erikwiffin/slim-react",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Wiffin",
+            "email": "erik.wiffin@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "~2.5",
+        "slim/views": "0.1.*",
+        "twig/twig": "~1.18"
+    },
+    "autoload": {
+        "psr-4": { "SlimReact\\": "SlimReact/" }
+    }
+}

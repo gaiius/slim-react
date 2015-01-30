@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="static/styles/app.css" />
+            <title>{% block title %}{% endblock %} - My Webpage</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div>{% block content %}{% endblock %}</div>
+        <script src="static/scripts/app.js"></script>
+    </body>
+</html>
