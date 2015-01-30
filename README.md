@@ -4,6 +4,7 @@ Stolen shamelessly from [https://github.com/facebook/react/tree/master/examples/
 
 ## How to run the demo
 
++ `php composer.phar install`
 + `npm install`
 + `grunt`
 + `npm start`
